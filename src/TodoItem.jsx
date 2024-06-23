@@ -9,7 +9,7 @@ function TodoItem({ todo, deleteTask }) {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {todo.text}
+      {todo.label}
       {isHovered && (
         <span 
           className="delete-icon"
